@@ -2,11 +2,11 @@ import { NavItem, SocialLink } from "@/types";
 
 export const SITE = {
   name: "Jeel Patel",
-  role: "AI & Full Stack Developer",
+  role: "AI & web developer",
   tagline:
-    "I design and build intelligent, full-stack web products — from AI-powered tools to polished production apps.",
+    "I design and build intelligent,web products — from AI-powered tools to polished production apps.",
   email: "pjeel370@gmail.com",
-  location: "Ahmedabad, India",
+  location: "Anand,Gujarat",
   availability: "Available for freelance & full-time roles",
   url: "https://jeelpatel.vercel.app",
 };
@@ -30,7 +30,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
 
 export const ROTATING_ROLES = [
   "AI Developer",
-  "Full Stack Developer",
+  "Web Developer",
   "React Developer",
   "Next.js Developer",
   "Node.js Developer",
@@ -39,7 +39,7 @@ export const ROTATING_ROLES = [
 
 export const TERMINAL_LINES = [
   "AI Developer",
-  "Full Stack Engineer",
+  "Web Developer",
   "Building Modern Products",
   "Always Learning...",
 ];
