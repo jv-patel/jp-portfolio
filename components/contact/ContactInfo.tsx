@@ -1,8 +1,7 @@
-import { Mail, MapPin, Github, Linkedin, Instagram, CircleDot } from "lucide-react";
+import { Mail, MapPin, CircleDot } from "lucide-react";
 import { SITE, SOCIAL_LINKS } from "@/constants/site";
 import GlowCard from "@/components/common/GlowCard";
-
-const ICON_MAP = { Github, Linkedin, Mail, Instagram } as const;
+import { SOCIAL_ICON_MAP as ICON_MAP } from "@/components/common/SocialIconMap";
 
 export default function ContactInfo() {
   return (

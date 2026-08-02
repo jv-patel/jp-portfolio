@@ -2,8 +2,9 @@
 
 import dynamic from "next/dynamic";
 import { motion } from "framer-motion";
-import { Github, Linkedin, Mail, Instagram, ArrowUpRight, Sparkles } from "lucide-react";
+import { ArrowUpRight, Sparkles } from "lucide-react";
 import { SITE, SOCIAL_LINKS } from "@/constants/site";
+import { SOCIAL_ICON_MAP } from "@/components/common/SocialIconMap";
 import TypingRoles from "./TypingRoles";
 import MiniTerminal from "./MiniTerminal";
 import FloatingTechCards from "./FloatingTechCards";
@@ -18,12 +19,6 @@ const HeroScene = dynamic(() => import("./HeroScene"), {
   ),
 });
 
-const SOCIAL_ICON_MAP = {
-  Github,
-  Linkedin,
-  Mail,
-  Instagram,
-} as const;
 
 const container = {
   hidden: {},

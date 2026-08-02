@@ -41,7 +41,7 @@ export default function Navbar() {
           }}
           className="font-display text-lg font-bold tracking-tight"
         >
-          <span className="gradient-text">AV</span>
+          <span className="gradient-text">JP</span>
         </a>
 
         <ul className="hidden items-center gap-1 lg:flex">

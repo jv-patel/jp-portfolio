@@ -115,7 +115,7 @@ export const TESTIMONIALS: Testimonial[] = [
     name: "Priya Sharma",
     role: "Product Manager, Nimbus Labs",
     review:
-      "Arjun turned a vague brief into a polished AI product in weeks. His attention to detail and communication made the whole process effortless.",
+      "Jeel turned a vague brief into a polished AI product in weeks. His attention to detail and communication made the whole process effortless.",
     avatarInitials: "PS",
   },
   {

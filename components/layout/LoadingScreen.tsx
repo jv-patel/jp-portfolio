@@ -40,7 +40,7 @@ export default function LoadingScreen() {
             transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
             className="font-display text-3xl font-bold tracking-tight"
           >
-            <span className="gradient-text">AV</span>
+            <span className="gradient-text">JP</span>
             <span className="ml-1 text-text-primary">.dev</span>
           </motion.div>
 

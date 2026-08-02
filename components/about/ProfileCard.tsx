@@ -8,7 +8,7 @@ export default function ProfileCard() {
       <div className="relative">
         <div className="absolute inset-0 -z-10 rounded-full bg-gradient-primary opacity-40 blur-xl" />
         <div className="flex h-28 w-28 items-center justify-center rounded-full border border-border-glass bg-gradient-primary font-display text-3xl font-bold text-white shadow-glow">
-          AV
+          JP
         </div>
       </div>
 

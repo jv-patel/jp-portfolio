@@ -1,9 +1,8 @@
 "use client";
 
-import { ArrowUp, Github, Linkedin, Mail, Instagram } from "lucide-react";
+import { ArrowUp } from "lucide-react";
 import { SITE, NAV_ITEMS, SOCIAL_LINKS } from "@/constants/site";
-
-const ICON_MAP = { Github, Linkedin, Mail, Instagram } as const;
+import { SOCIAL_ICON_MAP as ICON_MAP } from "@/components/common/SocialIconMap";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -18,7 +17,7 @@ export default function Footer() {
         <div className="flex flex-col items-start justify-between gap-8 md:flex-row md:items-center">
           <div>
             <a href="#home" className="font-display text-xl font-bold">
-              <span className="gradient-text">AV</span>
+              <span className="gradient-text">JP</span>
               <span className="ml-1 text-text-primary">.dev</span>
             </a>
             <p className="mt-2 max-w-xs text-sm text-text-secondary">{SITE.tagline}</p>
