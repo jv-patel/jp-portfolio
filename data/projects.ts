@@ -11,7 +11,7 @@ export const PROJECTS: Project[] = [
     image: "/images/projects/ai-chatbot.svg",
     categories: ["AI", "Full Stack"],
     stack: ["Next.js", "TypeScript", "OpenAI API", "Tailwind CSS", "MongoDB"],
-    liveUrl: "https://example.com",
+    liveUrl: "https://ai-chatbot-nine-navy-46.vercel.app/",
     githubUrl: "https://github.com/jv-patel/ai-chatbot",
     status: "Live",
     featured: true,
