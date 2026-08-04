@@ -49,21 +49,22 @@ export const PROJECTS: Project[] = [
       "Queuing concurrent generation jobs without blocking the UI meant building a lightweight client-side job tracker.",
   },
   {
-    id: "ai-email-writer",
-    title: "AI Email Writer",
-    description: "Smart email drafting assistant with tone and length controls.",
+  
+    id: "pdf-assistant",
+    title: "PDF Assistant",
+    description: "AI-powered tool to chat with, summarize, and extract data from PDFs.",
     longDescription:
-      "An AI-assisted email composer that generates drafts based on a short brief, with adjustable tone (formal, friendly, concise) and one-click rewriting.",
-    image: "/images/projects/ai-email-writer.svg",
+      "An AI assistant that lets users upload a PDF and ask questions about its content, generate summaries, and pull out structured data — built for quickly working through long documents and reports.",
+    image: "/images/projects/pdf-assistant.svg",
     categories: ["AI", "Web"],
-    stack: ["React", "TypeScript", "OpenAI API", "Tailwind CSS"],
+    stack: ["React", "Node.js", "OpenAI API", "Tailwind CSS"],
     liveUrl: "https://example.com",
-    githubUrl: "https://github.com/jv-patel/ai-email-writer",
-    status: "Completed",
+    githubUrl: "https://github.com/jv-patel/pdf-assistant",
+    status: "In Progress",
     size: "small",
-    features: ["Tone presets", "One-click rewrite", "Copy-to-clipboard export"],
+    features: ["Chat with any uploaded PDF", "Auto-generated summaries", "Structured data extraction"],
     challenges:
-      "Keeping generated tone consistent across rewrites required a structured system prompt with explicit style anchors.",
+      "Chunking long PDFs while keeping enough context for accurate answers required a careful retrieval strategy.",
   },
   {
     id: "blinkit-clone",
